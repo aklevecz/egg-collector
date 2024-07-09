@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		573855802C3A1B5100BA4428 /* EggCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738557F2C3A1B5100BA4428 /* EggCollector.swift */; };
+		573855822C3A1B5100BA4428 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573855812C3A1B5100BA4428 /* ContentView.swift */; };
+		573855842C3A1B5200BA4428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573855832C3A1B5200BA4428 /* Assets.xcassets */; };
+		573855872C3A1B5200BA4428 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573855862C3A1B5200BA4428 /* Preview Assets.xcassets */; };
+		5738558E2C3A1CE200BA4428 /* EggsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738558D2C3A1CE200BA4428 /* EggsView.swift */; };
+		573855902C3A569300BA4428 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738558F2C3A569300BA4428 /* ModelData.swift */; };
+		573855922C3A570000BA4428 /* Egg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573855912C3A570000BA4428 /* Egg.swift */; };
+		573855942C3A604400BA4428 /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 573855932C3A604400BA4428 /* collection.json */; };
+		573855962C3AE3A300BA4428 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573855952C3AE3A300BA4428 /* ARViewContainer.swift */; };
+		573855982C3AEC2C00BA4428 /* ARViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573855972C3AEC2C00BA4428 /* ARViewer.swift */; };
+		577385A82C3C7CE8004E6A35 /* EggDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577385A72C3C7CE8004E6A35 /* EggDetailView.swift */; };
+		57A677492C3B9DF50026ADC4 /* NFCReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A677482C3B9DF50026ADC4 /* NFCReader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5738557C2C3A1B5100BA4428 /* egg-collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "egg-collector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5738557F2C3A1B5100BA4428 /* EggCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggCollector.swift; sourceTree = "<group>"; };
+		573855812C3A1B5100BA4428 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		573855832C3A1B5200BA4428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		573855862C3A1B5200BA4428 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5738558D2C3A1CE200BA4428 /* EggsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggsView.swift; sourceTree = "<group>"; };
+		5738558F2C3A569300BA4428 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		573855912C3A570000BA4428 /* Egg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg.swift; sourceTree = "<group>"; };
+		573855932C3A604400BA4428 /* collection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		573855952C3AE3A300BA4428 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		573855972C3AEC2C00BA4428 /* ARViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewer.swift; sourceTree = "<group>"; };
+		573855992C3B893C00BA4428 /* egg-collector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "egg-collector.entitlements"; sourceTree = "<group>"; };
+		577385A62C3C5370004E6A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		577385A72C3C7CE8004E6A35 /* EggDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggDetailView.swift; sourceTree = "<group>"; };
+		57A677482C3B9DF50026ADC4 /* NFCReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCReader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		573855792C3A1B5100BA4428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		573855732C3A1B5100BA4428 = {
+			isa = PBXGroup;
+			children = (
+				5738557E2C3A1B5100BA4428 /* egg-collector */,
+				5738557D2C3A1B5100BA4428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5738557D2C3A1B5100BA4428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5738557C2C3A1B5100BA4428 /* egg-collector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5738557E2C3A1B5100BA4428 /* egg-collector */ = {
+			isa = PBXGroup;
+			children = (
+				577385A62C3C5370004E6A35 /* Info.plist */,
+				573855992C3B893C00BA4428 /* egg-collector.entitlements */,
+				5738557F2C3A1B5100BA4428 /* EggCollector.swift */,
+				573855812C3A1B5100BA4428 /* ContentView.swift */,
+				57A677482C3B9DF50026ADC4 /* NFCReader.swift */,
+				577385A72C3C7CE8004E6A35 /* EggDetailView.swift */,
+				5738558F2C3A569300BA4428 /* ModelData.swift */,
+				573855952C3AE3A300BA4428 /* ARViewContainer.swift */,
+				573855932C3A604400BA4428 /* collection.json */,
+				573855972C3AEC2C00BA4428 /* ARViewer.swift */,
+				573855912C3A570000BA4428 /* Egg.swift */,
+				5738558D2C3A1CE200BA4428 /* EggsView.swift */,
+				573855832C3A1B5200BA4428 /* Assets.xcassets */,
+				573855852C3A1B5200BA4428 /* Preview Content */,
+			);
+			path = "egg-collector";
+			sourceTree = "<group>";
+		};
+		573855852C3A1B5200BA4428 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				573855862C3A1B5200BA4428 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5738557B2C3A1B5100BA4428 /* egg-collector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5738558A2C3A1B5200BA4428 /* Build configuration list for PBXNativeTarget "egg-collector" */;
+			buildPhases = (
+				573855782C3A1B5100BA4428 /* Sources */,
+				573855792C3A1B5100BA4428 /* Frameworks */,
+				5738557A2C3A1B5100BA4428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "egg-collector";
+			productName = "egg-collector";
+			productReference = 5738557C2C3A1B5100BA4428 /* egg-collector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		573855742C3A1B5100BA4428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5738557B2C3A1B5100BA4428 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 573855772C3A1B5100BA4428 /* Build configuration list for PBXProject "egg-collector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 573855732C3A1B5100BA4428;
+			productRefGroup = 5738557D2C3A1B5100BA4428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5738557B2C3A1B5100BA4428 /* egg-collector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5738557A2C3A1B5100BA4428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573855872C3A1B5200BA4428 /* Preview Assets.xcassets in Resources */,
+				573855842C3A1B5200BA4428 /* Assets.xcassets in Resources */,
+				573855942C3A604400BA4428 /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		573855782C3A1B5100BA4428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573855922C3A570000BA4428 /* Egg.swift in Sources */,
+				573855822C3A1B5100BA4428 /* ContentView.swift in Sources */,
+				573855982C3AEC2C00BA4428 /* ARViewer.swift in Sources */,
+				573855902C3A569300BA4428 /* ModelData.swift in Sources */,
+				57A677492C3B9DF50026ADC4 /* NFCReader.swift in Sources */,
+				577385A82C3C7CE8004E6A35 /* EggDetailView.swift in Sources */,
+				573855802C3A1B5100BA4428 /* EggCollector.swift in Sources */,
+				5738558E2C3A1CE200BA4428 /* EggsView.swift in Sources */,
+				573855962C3AE3A300BA4428 /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		573855882C3A1B5200BA4428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		573855892C3A1B5200BA4428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5738558B2C3A1B5200BA4428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "egg-collector/egg-collector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"egg-collector/Preview Content\"";
+				DEVELOPMENT_TEAM = L7V38L8N6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "egg-collector/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Reading NFC eggs hidden in scavenger hunts";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaytso.egg-collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5738558C2C3A1B5200BA4428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "egg-collector/egg-collector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"egg-collector/Preview Content\"";
+				DEVELOPMENT_TEAM = L7V38L8N6S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "egg-collector/Info.plist";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Reading NFC eggs hidden in scavenger hunts";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaytso.egg-collector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		573855772C3A1B5100BA4428 /* Build configuration list for PBXProject "egg-collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				573855882C3A1B5200BA4428 /* Debug */,
+				573855892C3A1B5200BA4428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5738558A2C3A1B5200BA4428 /* Build configuration list for PBXNativeTarget "egg-collector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5738558B2C3A1B5200BA4428 /* Debug */,
+				5738558C2C3A1B5200BA4428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 573855742C3A1B5100BA4428 /* Project object */;
+}
